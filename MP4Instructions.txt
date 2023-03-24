@@ -1,0 +1,43 @@
+An "abundant" number is a natural number the sum of whose proper divisors is greater than the number itself.
+
+ 
+
+The "proper" divisors of a number are the factors of the number that are less than the number.
+
+ 
+
+A "natural" number is {1,2,3...}
+
+ 
+
+FOR EXAMPLE:
+
+ 
+
+THE NUMBER 8 IS NOT AN ABUNDANT NUMBER
+
+The proper divisors of 8 are 1, 2, and 4
+
+The sum of the proper divisors is 1+2+4 or 7 which is less than the number 8.
+
+There are 3 proper divisors for the number 8
+
+ 
+
+THE NUMBER 12 IS AN ABUNDANT NUMBER
+
+The proper divisors of 12 are 1,2,3,4, and 6
+
+The sum of the proper divisors is 1+2+3+4+6 or 16 which is greater than the number 12.
+
+There are 5 proper divisors for the number 12
+
+ 
+
+Write a program which finds and writes all the abundant numbers which are smaller or equal to the smallest natural number that has exactly six proper divisors.  For each of the abundant numbers that it finds, the program output should include:
+
+that particular abundant number,
+the list of its proper divisors,
+the sum of those divisors,
+the total number of proper divisors
+the appropriate messages.
