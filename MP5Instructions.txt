@@ -1,0 +1,111 @@
+Assume you are a cashier in a bank and your duty is to enter data for four customers and to do variety of deposits. Write a C++ program that manages customer’s information at the bank and afterwards displays the required information for each customer. The program’s design should use a main and five functions described below:
+
+readAccountNo: A function that prompts the user to enter an account number and returns it. The function should accept only an even positive account number less than 10000.
+readBalanceAmount: A function that prompts the user to enter the opening balance amount and returns it. The balance amount should be from 1 to $200,000 in the program. If the user enters an amount less than 1 or greater than $200,000 then the function should keep asking the user, by using a for loop, to enter an amount until user enters a values from 1 to 200000.
+calculateDeposit: A function that accepts the account balance as an argument and prompts the user to enter the amount needed to deposit. The function calculates and returns the new cumulative amount balance.
+addReturnBonus: A function that accepts the opening balance as an argument, calculates and returns the new balance after adding the bonus percentage granted by the bank based on the account amount. The bonus percentage is like this:
+Account amount
+
+Percentage
+
+from 1 to 100
+
+2%
+
+from 101 to 500
+
+3%
+
+from 501 to 1000
+
+4%
+
+over 1000
+
+5%
+
+ 
+
+printAllInfo: A function accepts eight parameters: four account numbers and four account balances as arguments. The function should display Account balances for all accounts as shown below:
+================================= Balance Accounts ==========================
+
+=============================================================================
+
+Balance amount for Customer account number 1234       xxxx.xx
+
+Balance amount for Customer account number 5678       xxxx.xx
+
+Balance amount for Customer account number 9012       xxxx.xx
+
+Balance amount for Customer account number 3456       xxxx.xx
+
+=============================================================================
+
+ 
+
+The main():
+a.           Displays the developer’s details including: Your name, your CPS 171 section number and the due date by using for loops as in:
+
+ 
+
+*****************************************************************************
+
+*****************************************************************************
+
+Name: FFFFFFFF LLLLLLLL Section: XXX            Due Date: Month, day, year
+
+*****************************************************************************
+
+*****************************************************************************
+
+ 
+
+b.           For each customer, it calls readAccountNo() and readBalanceAmount() to add new account number and its balance respectively. See the example below:
+
+      Enter data for 4 customers:
+
+      For customer 1:
+
+      Enter account number:   1234
+
+      Enter opening balance: 1200.50
+
+      For customer 2:
+
+      Enter account number:   5678
+
+      Enter opening balance: 1500.60
+
+      For customer 3:
+
+      Enter account number:   9012
+
+      Enter opening balance: 2000.90
+
+      For customer 4:
+
+      Enter account number:   3456
+
+      Enter opening balance: 2500.40
+
+ 
+
+c.           For each customer, adds bonus by calling addReturnBonus() function.
+
+d.           A main menu with three options should be created to allow for deposit, view accounts and exit program. This menu should at least appear once and repeated until the user exits the program. The menu will have the following three options:
+
+A-    Do deposit
+
+B-    View accounts
+
+C-    Exit the program
+
+ 
+
+If the user enters a wrong menu option, an error message should be displayed to the user to try again to reenter a correct option. You have to use switch statement in your code.
+
+e.           Call function printAllInfo().
+
+ 
+
+You must submit the .cpp file and the output.
