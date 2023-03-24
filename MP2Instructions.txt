@@ -1,0 +1,73 @@
+Problem:
+
+ 
+
+Well, with the recent merger of the BAA&M Railroad with the Kalamazoo, Erie & Rochester, you find yourself working for the KERBAA&M in a new location.  You are now required to produce very specifically formatted reports for your new hot-tempered management. 
+
+ 
+
+The data file should have the following information (Each item is on a separate line):
+
+Name of Railroad
+
+Destination
+
+Number of ore cars
+
+Current price of Coal per short ton.
+
+ 
+
+You need to calculate:
+
+1. the amount of coal,
+
+2. the total value of the shipment, and
+
+3. the surcharge. 
+
+ 
+
+Assume that every car holds 74.5 tons.  The surcharge is set at 0.31% of the total value of the shipment.
+
+You need to produce a report formatted EXACTLY as follows (with your name):
+
+ 
+
+KERBAA & M COAL TRAIN REPORT – <YOUR NAME>
+
+ 
+
+Railroad Name:    Ironton and Tylerville
+
+Destination:      Flint Edison #4
+
+ 
+
+Number of ore cars:............          87
+
+Total weight of coal...........     6481.50 short tons
+
+Current Cost per short ton..... $     65.47
+
+Total Value of Shipment........ $ 424343.81
+
+Current Surcharge..............        0.31%
+
+ 
+
+Total Surcharge(Est)........... $   1315.47
+
+
+
+ 
+
+You must run your program from a file containing the following data:
+
+Ironton and Tylerville
+
+Flint Edison #4
+
+87
+
+65.47
